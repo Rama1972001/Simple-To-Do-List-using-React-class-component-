@@ -1,0 +1,67 @@
+.first {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  padding-top: 4rem;
+}
+
+.todo_wrapper {
+  margin-right: 7rem;
+  font-size: 2rem;
+  color: #585858;
+  list-style: none;
+
+}
+
+.todo_item {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font: size 1.3rem;
+  color:darkmagenta;
+
+}
+
+.todo_item>button {
+  margin: 0 0px 13px 13px;
+  padding: 0.6rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.todo_item>button:hover {
+ color: wheat;
+ background: violet;
+}
+
+.clear,.add {
+ 
+  padding-top: 4rem;
+  padding: 0.6rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.clear:hover,.add:hover {
+ color: wheat;
+ font-weight: 700px;
+ background: violet;
+}
+input{
+  font-size: 20px;
+}
+textarea{
+  width: 300px;
+  height: 200px;
+}
+
+input:focus{  outline: none !important;
+
+  color:indigo;
+  border: 2px solid violet;
+}
+textarea:focus{
+  outline: none !important;
+font-size: 17px;
+  color:indigo;  border: 2px solid violet;
+}
